@@ -27,11 +27,6 @@ This container will pull Debian Jessie, download Recoll source.list, then instal
 4. Access the docker-recoll-webui frontend at this address [http://172.17.0.2:8080](http://172.17.0.2:8080) if this is the only container you run.
    If you have more, you can get it's IP address by running ``docker inspect docker-recoll-webui | grep "IPAddress"``
 
-**PDF OCR**
-===========
-
-Recursevely watch the top directory for new pdf files, if one or more are found run pdf-ocr
-
 
 **Notes**
 =========
